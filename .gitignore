@@ -1,0 +1,14 @@
+# Binaires compilés
+bin/
+*.exe
+*.out
+
+# Captures réseau locales potentiellement sensibles (ELMAS.md §9)
+*.pcap
+*.pcapng
+captures/
+
+# Environnement & couverture
+.env
+coverage.out
+.DS_Store
